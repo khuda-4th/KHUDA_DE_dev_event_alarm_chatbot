@@ -8,7 +8,6 @@ from selenium.webdriver.common.by import By
 warnings.filterwarnings(action="ignore")
 
 # selenium으로 velog 메인 페이지에서 트렌딩 글들 링크만 가져오기 (beautilfulSoup으로 하니까 못 찾아서)
-'''
 def get_url_list() : 
     browser = webdriver.Chrome('crawling/chromedriver') # chrome version 119.0.6045.105 (이것보다 높으면 안 됨)
     browser.get("https://velog.io/")
@@ -17,11 +16,6 @@ def get_url_list() :
     for url in url_list :
         result.append(url.get_attribute('href'))
     return result
-'''
-def get_url_list() :
-    page = open_page("https://velog.io/trending/week")
-    url_list = page.find_all('div',{'class' : 'PostCard_block__t_0t8'})
-    print(url_list)
 
 # beautifulSoup으로 각 블로그 글들 정보 가져오기
 def open_page(url) :
@@ -52,6 +46,8 @@ def get_text(page) :
     
 def main() :
     url_list = get_url_list()
+    url_list = list(set(url_list))
+    print(len(url_list))
     for l in url_list :
         page = open_page(l)
         title = get_title(page)
