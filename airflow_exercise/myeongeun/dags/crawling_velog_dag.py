@@ -3,7 +3,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.trigger_rule import TriggerRule
-
+from airflow.providers.amazon.aws.hooks.s3 import S3Hook # 추가
 
 import sys, os
 sys.path.append(os.getcwd())
@@ -13,6 +13,14 @@ from crawling.crawling_velog import *
 def print_result(**kwargs):
     r = kwargs["task_instance"].xcom_pull(key='result_msg')
     print("message : ", r)
+
+def upload_to_s3() :
+    date = datetime.datetime.now().strftime("%Y%m%d")
+    hook = S3Hook('de_velog_aws') # connection ID 입력
+    filename = f'/home/ubuntu/airflow/airflow/data/velog_{date}.csv'
+    key = f'data/velog_{date}.csv'
+    bucket_name = 'khuda-de-project' 
+    hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
 
 default_args = {
     'owner': 'owner-name',
@@ -38,6 +46,11 @@ with DAG( **dag_args ) as dag:
         task_id='start',
         bash_command='echo "start!"',
     )
+    
+    upload = PythonOperator(
+        task_id = 'upload',
+        python_callable = upload_to_s3
+    )
 
     get_url_task = PythonOperator(
         task_id='selenium_get_url',
@@ -60,4 +73,4 @@ with DAG( **dag_args ) as dag:
         bash_command='echo "complete!"',
     )
 
-    start >> get_url_task >> get_info_task >> msg >> complete
+    start >> get_url_task >> get_info_task >> upload >> msg >> complete
