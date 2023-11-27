@@ -1,0 +1,66 @@
+# https://dev-event.vercel.app/events
+
+from datetime import datetime, timedelta
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import BranchPythonOperator
+from airflow.operators.python import PythonOperator
+from airflow.utils.trigger_rule import TriggerRule
+from airflow.providers.amazon.aws.hooks.s3 import S3Hook
+
+from crawling_dev import *
+
+def upload_to_s3():
+    date = datetime.datetime.now().strftime("%Y%m%d")
+    hook = S3Hook("de-airflow")
+    filename = f'/home/ubuntu/airflow/data/dev-crawler-{date}.csv'
+    key = f'data/dev-crawler-{date}.csv'
+    bucket_name = 'de-project-airflow'
+    hook.load_file(filename=filename, key=key, bucket_name=bucket_name)
+
+
+with DAG (
+    dag_id = "de-project-dev-event",
+    # These args will get passed on to each operator
+    # You can override them on a per-task basis during operator initialization
+    default_args={
+        "depends_on_past": False,
+        "email": ["dbgpwl34@gmail.com"],
+        "email_on_failure": False,
+        "email_on_retry": False,
+        "retries": 1,
+        "retry_delay": timedelta(minutes=30)
+    },
+    description="de-project-dev-event",
+    schedule_interval=timedelta(minutes=50),
+    start_date=datetime.datetime(2023, 11, 26),
+    tags=["dev-event"],
+) as dag:
+
+    start = BashOperator(
+        task_id="start",
+        bash_command="echo 'start!'",
+    )
+
+    info = PythonOperator(
+        task_id = 'get_info',
+        python_callable = crawling
+    )
+
+    upload = PythonOperator(
+        task_id='upload',
+        python_callable = upload_to_s3,
+        trigger_rule = TriggerRule.NONE_FAILED
+    )
+
+    complete = BashOperator(
+        task_id = 'complete_bash',
+        depends_on_past = False,
+        bash_command = 'echo "complete"',
+        trigger_rule = TriggerRule.NONE_FAILED
+    )
+    
+    start >> info >> upload >> complete
+
+
+
