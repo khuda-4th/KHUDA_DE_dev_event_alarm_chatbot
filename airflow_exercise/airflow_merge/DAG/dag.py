@@ -10,6 +10,7 @@ sys.path.append(os.getcwd())
 
 from crawling.crawling_event import *
 from crawling.crawling_velog import *
+from crawling.crawling_contest import *
 
 def upload_to_s3() :
     date = datetime.now().strftime("%Y%m%d")
@@ -17,13 +18,16 @@ def upload_to_s3() :
     
     event_filename = f'/home/ubuntu/airflow/airflow/data/event_{date}.csv'
     velog_filename = f'/home/ubuntu/airflow/airflow/data/velog_{date}.csv'
+    contest_filename = f'/home/ubuntu/airflow/airflow/data/contest_{date}.csv'
 
     event_key = f'data/event_{date}.csv'
     velog_key = f'data/velog_{date}.csv'
+    contest_key = f'data/contest_{date}.csv'
 
     bucket_name = 'khuda-de-project' 
     hook.load_file(filename=event_filename, key=event_key, bucket_name=bucket_name)
     hook.load_file(filename=velog_filename, key=velog_key, bucket_name=bucket_name)
+    hook.load_file(filename=contest_filename, key=contest_key, bucket_name=bucket_name)
 
 default_args = {
     'owner': 'owner-name',
@@ -73,6 +77,10 @@ with DAG( **dag_args ) as dag:
     )
 
     # -------- contest -------- #
+    contest_task = PythonOperator(
+        task_id='contest_crawling',
+        python_callable=contest_crawling,
+    )
 
     complete = BashOperator(
         task_id='complete_bash',
@@ -81,3 +89,4 @@ with DAG( **dag_args ) as dag:
 
     start >> event_get_data_task >> upload >> complete
     start >> velog_get_url_task >> velog_get_info_task >> upload >> complete
+    start >> contest_task >> upload >> complete

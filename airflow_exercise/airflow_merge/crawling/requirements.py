@@ -8,3 +8,6 @@ import warnings
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as bs
+import asyncio
+import aiohttp
+import csv
