@@ -35,8 +35,7 @@
 
 <img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/474de51a-e07f-469d-9678-f105db4f8791" width="400" height="600"/>
 
->1. 슬랙 접속
->2. ~~
+
 
 <br>
 
@@ -57,6 +56,8 @@
 | <img src='https://avatars.githubusercontent.com/u/87311912?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/64704608?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/49024115?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/111333350?v=4' height=130 width=130></img> |
 | <a href="https://github.com/Minseo-Jo" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/whybe-choi" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/eu2525" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/myeunee" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> |
 
+<br>
+
 ## ⌘ Project BackGround
 
 <br>
@@ -68,6 +69,18 @@
 <br>
 
 
-## ⚙️ Architecture
+## ⚙️ Service Architecture
 <img width="1101" alt="스크린샷 2023-12-02 오후 2 53 00" src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/bab84871-4e70-4df0-9dad-060ad79a3b8f">
 
+
+**[ 단계별 수행 과정 ]**
+![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
+
+![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
+
+<br>
+
+## 💿 Data
+
+
+## 📚 Further Information
