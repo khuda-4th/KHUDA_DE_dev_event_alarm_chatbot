@@ -17,7 +17,7 @@ from crawling.crawling_velog import *
 from crawling.crawling_contest_final import *
 from slack_alert import SlackAlert
 
-slack = SlackAlert('#khuda-4th-de', 'xoxb-6265634593090-6265691870306-TLLzvNZYpaysROIxvL6TNGuv')
+slack = SlackAlert('#khuda-4th-de', #발급된 토큰번호)
 
 def upload_to_s3() :
     date = datetime.now().strftime("%Y%m%d")
