@@ -4,7 +4,7 @@ from slack_alarm import SlackAlarm
 
 from requirements import *
 
-slack = SlackAlarm('#dev-event-alarm', 'xoxb-6262562402341-6258935256390-s1UgbxxDBgC2BihYU7G0F7Zy')
+slack = SlackAlarm('#your_channel', '#your_token')
 
 def event_get_urls(url):
     response = requests.get(url)
