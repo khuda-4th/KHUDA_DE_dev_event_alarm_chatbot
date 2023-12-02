@@ -15,6 +15,6 @@
 
 ## ⚙️ Architecture
 
-<img width="793" alt="KakaoTalk_Photo_2023-12-01-11-27-57" src="https://github.com/whybe-choi/khuda-nlp-project/assets/64704608/43bff175-6292-457d-a897-e48f5f48e506">
+<img width="1101" alt="스크린샷 2023-12-02 오후 2 53 00" src="https://github.com/whybe-choi/khuda-nlp-project/assets/64704608/d37a2011-40b0-4257-bb8c-e15c17457a8b">
 
 
