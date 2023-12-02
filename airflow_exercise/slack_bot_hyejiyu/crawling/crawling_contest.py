@@ -13,7 +13,7 @@ AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
 AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
 
 date = datetime.now().strftime("%y%m%d")
-slack = SlackAlarm('#dev-event-alarm', 'xoxb-6262562402341-6258935256390-s1UgbxxDBgC2BihYU7G0F7Zy')
+slack = SlackAlarm('#your_channel', '#your_token')
 
 
 async def fetch(session, url, csv_writer):
