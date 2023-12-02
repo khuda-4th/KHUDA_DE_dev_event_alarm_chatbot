@@ -4,7 +4,6 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.trigger_rule import TriggerRule
 from airflow.providers.amazon.aws.hooks.s3 import S3Hook # 추가
-from slack_alarm import SlackAlarm
 
 import sys, os
 sys.path.append(os.getcwd())
@@ -13,7 +12,6 @@ from crawling_event import *
 from crawling_velog import *
 from crawling_contest import *
 
-slack = SlackAlarm('#dev-event-alarm', 'xoxb-6262562402341-6258935256390-s1UgbxxDBgC2BihYU7G0F7Zy')
 
 def upload_to_s3() :
     date = datetime.now().strftime("%Y%m%d")
