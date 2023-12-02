@@ -5,7 +5,7 @@
 `AirDnB` 는 **Airflow를 이용한 개발 행사 및 대회 소식 알림봇**입니다.
 
 ## 🔍 Preview
-- **`kakaotalk`**
+- **`kakaotalk`** - [카카오톡 채널 등록](http://pf.kakao.com/_TxiInG)
 
 <img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/64da25b5-8ac0-40ec-b7be-bcdc72f200c2" width="400" height="600"/>
 
