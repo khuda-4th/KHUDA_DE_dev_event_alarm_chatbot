@@ -1,6 +1,15 @@
 # AirDnB : 개발 행사 및 대회 소식 알림봇
-
+<div align="center">
 <img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/30a4b397-cc10-4505-a46d-60fb7eb32219" width="400" height="400"/>
+<p align="center">
+   <img src="https://img.shields.io/badge/Apache_Airflow-E5426E?style=flat-square&logo=Apache Airflow&logoColor=white" alt="Apache Airflow badge">
+    <img src="https://img.shields.io/badge/Amazon_S3-61DAFB?style=flat-square&logo=Amazon S3&logoColor=black" alt="Amazon S3 badge">
+    <img src="https://img.shields.io/badge/Amazon_AWS-EE4C2C?style=flat-square&logo=Amazon AWS&logoColor=white" alt="Amazos AWS badge">
+    <img src="https://img.shields.io/badge/Prometheus-0467DF?style=flat-square&logo=prometheus&logoColor=white" alt="prometheus badge">
+    <img src="https://img.shields.io/badge/Grafana-ea4335?style=flat-square&logo=grafana&logoColor=white" alt="grafana badge">
+    <img src="https://img.shields.io/badge/Python-5C3EE8?style=flat-square&logo=python&logoColor=white" alt="python badge">
+  </p>
+</div>
 
 `AirDnB` 는 **Airflow를 이용한 개발 행사 및 대회 소식 알림봇**입니다.
 
