@@ -1,8 +1,17 @@
-# 개발 행사 및 대회 소식 알림봇 : AirDnB
+# AirDnB : 개발 행사 및 대회 소식 알림봇
+
 <img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/30a4b397-cc10-4505-a46d-60fb7eb32219" width="250" height="250"/>
 
+`AirDnB` 는 **Airflow를 이용한 개발 행사 및 대회 소식 알림봇**입니다.
+
 ## 🔍 Preview
-<img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/64da25b5-8ac0-40ec-b7be-bcdc72f200c2" width="350" height="600"/>
+- **`kakaotalk`**
+
+<img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/64da25b5-8ac0-40ec-b7be-bcdc72f200c2" width="400" height="600"/>
+
+- **`slack`**
+
+<img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/474de51a-e07f-469d-9678-f105db4f8791" width="400" height="600"/>
 
 ## 🧑🏻‍💻 Members
 
@@ -19,6 +28,4 @@
 
 ## ⚙️ Architecture
 <img width="1101" alt="스크린샷 2023-12-02 오후 2 53 00" src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/bab84871-4e70-4df0-9dad-060ad79a3b8f">
-
-
 
