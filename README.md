@@ -76,7 +76,7 @@
 **[ 단계별 수행 과정 ]**
 ![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
 
-![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
+![image](https://github.com/myeunee/hello-world/assets/111333350/0ff5e885-4a27-40ef-8d4f-37ead60627b4)
 
 <br>
 
