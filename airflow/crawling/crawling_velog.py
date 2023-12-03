@@ -4,7 +4,7 @@ sys.path.append(os.getcwd())
 from crawling.requirements import *
 from slack_chatbot.slack_alarm import *
 
-slack = SlackAlarm('#airdnb-bot', 'xoxb-6262562402341-6258935256390-txVIR0aXEjXaHPZR6HpP2hQj')
+slack = SlackAlarm('#airdnb-bot', '#your token')
 
 # selenium으로 velog 메인 페이지에서 트렌딩 글들 링크만 가져오기 (beautilfulSoup으로 하니까 못 찾아서)
 def velog_get_url(**kwargs) : 
