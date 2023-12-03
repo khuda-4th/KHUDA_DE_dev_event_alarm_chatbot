@@ -47,7 +47,7 @@
 
 ## 🧑🏻‍💻 Members
 
->**팀 `에어디앤비(AirDnB)`입니다!**<br><br>*에어비앤비에서 처음 airflow를 시작했기에 유사한 느낌을 주었습니다. air는 airflow의 air, d는 data, b는 bot 입니다!*
+>**팀 `에어디앤비(AirDnB)`입니다!**<br><br>***air**flow를 이용해 **d**ata pipeline을 구축했고, 이러한 작업을 바탕으로 알림 **b**ot을 만드는 프로젝트로, airbnb를 차용하여 **airdnb**로 팀이름을 정했습니다.*
 
 <br>
 
