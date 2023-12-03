@@ -101,5 +101,8 @@
 
 ## 💿 Data
 
+- [Contest Korea](https://www.contestkorea.com/)
+- [Dev Event](https://dev-event.vercel.app/events)
+- [velog](https://velog.io/)
 
 ## 📚 Further Information
