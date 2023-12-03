@@ -77,10 +77,10 @@
 
 
 ## ⚙️ Service Architecture
-<img width="1101" alt="스크린샷 2023-12-02 오후 2 53 00" src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/bab84871-4e70-4df0-9dad-060ad79a3b8f">
+<img width="1066" alt="스크린샷 2023-12-03 오후 7 35 11" src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/8a56c16e-fa27-4fa4-b714-e037921de754">
 
 
-**[ 단계별 수행 과정 ]**
+
 ### 1️⃣ Airflow DAG 구성을 통해 자동 크롤링
 ![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
 
