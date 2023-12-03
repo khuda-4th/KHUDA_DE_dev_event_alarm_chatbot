@@ -4,7 +4,7 @@ sys.path.append(os.getcwd())
 from crawling.requirements import *
 from slack_chatbot.slack_alarm import *
 
-slack = SlackAlarm('#airdnb-bot', 'xoxb-6262562402341-6258935256390-txVIR0aXEjXaHPZR6HpP2hQj')
+slack = SlackAlarm('#airdnb-bot', '#your token')
 
 async def fetch(session, url, csv_writer):
     async with session.get(url) as response:
