@@ -24,7 +24,7 @@ def upload_to_s3() :
     velog_key = f'data/velog_{date}.csv'
     contest_key = f'data/contest_{date}.csv'
 
-    bucket_name = 'khuda-de-project' 
+    bucket_name = 'airdnb' 
     hook.load_file(filename=event_filename, key=event_key, bucket_name=bucket_name)
     hook.load_file(filename=velog_filename, key=velog_key, bucket_name=bucket_name)
     hook.load_file(filename=contest_filename, key=contest_key, bucket_name=bucket_name)
