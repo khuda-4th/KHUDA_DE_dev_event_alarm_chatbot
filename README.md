@@ -78,6 +78,7 @@
 
 
 **[ 단계별 수행 과정 ]**
+### 1️⃣ Airflow DAG 구성을 통해 자동 크롤링
 ![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
 
 <br>
@@ -88,17 +89,24 @@
 
 <br>
 
-
+### 2️⃣ S3에 데이터 업로드
 ![image](https://github.com/myeunee/hello-world/assets/111333350/0ff5e885-4a27-40ef-8d4f-37ead60627b4)
 
-<br>
-
->- 
 >- **AWS S3(Amazon S3)**: AWS에서 제공하는 클라우드 기반의 객체 스토리지 서비스
->- 
+>- s3에 DAG 파일 업로드
 
 <br>
 
+### 3️⃣ Grafana 모니터링 대시보드
+![image](https://github.com/myeunee/hello-world/assets/111333350/8629b19c-8ff1-45f3-9ca1-80b707ca41a4)
+
+![image](https://github.com/myeunee/hello-world/assets/111333350/03e80f1a-06f1-4070-91c5-5e0b01969319)
+
+>- **Prometheus**: 메트릭을 주기적으로 스크랩
+>- **Grafana**: prometheus의 메트릭으로 대시보드 구성
+>- **Grafana 대시보드**: Task들의 성공 여부, Scheduler의 상태 체크, Scheduler의 진행 상태, Airflow Executor 정보, 현재 로드된 DAG의 수
+
+<br>
 
 ## 💿 Data
 
