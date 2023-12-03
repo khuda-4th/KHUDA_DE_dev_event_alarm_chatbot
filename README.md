@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/Prometheus-0467DF?style=flat-square&logo=prometheus&logoColor=white" alt="prometheus badge">
     <img src="https://img.shields.io/badge/Grafana-ea4335?style=flat-square&logo=grafana&logoColor=white" alt="grafana badge">
     <img src="https://img.shields.io/badge/Python-5C3EE8?style=flat-square&logo=python&logoColor=white" alt="python badge">
+    <img src="https://img.shields.io/badge/Flask-4A154B?style=flat-square&logo=Flask&logoColor=white" alt="Flask badge">
   </p>
 </div>
 
