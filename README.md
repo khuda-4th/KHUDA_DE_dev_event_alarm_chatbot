@@ -36,7 +36,8 @@
 <img src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/ca10284b-96df-408a-afb1-f783b37cf365" width="400" height="600"/>
 
 >1. 슬랙 'airflow-dev-event' 워크 스페이스 가입
->2. 알림봇이 주기적으로 요약한 정보를 메시지로 제공
+>2. 'airdnb-bot' 채널 선택
+>3. 알림봇이 주기적으로 요약한 정보를 메시지로 제공
 
 
 
