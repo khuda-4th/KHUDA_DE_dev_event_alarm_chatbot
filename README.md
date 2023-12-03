@@ -67,7 +67,7 @@
 
 ## ⌘ Project BackGround
 
-<br>
+<img width="1000" src="https://github.com/khuda-4th/khuda_de_project/assets/64704608/92ecd184-9132-45f3-8a13-e274d4f5ea11">
 
 * **`배경`** : 개발 행사나 소식을 모아놓은 사이트는 이미 존재하지만, 개발 행사나 세미나 등과 같은 소식이 뭐가 있나 매번 들어가기 번거롭다.
 
