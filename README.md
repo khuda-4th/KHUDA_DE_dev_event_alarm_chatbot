@@ -54,11 +54,13 @@
 | :-: | :-: | :-: | :-: |
 | <img src='https://avatars.githubusercontent.com/u/60197194?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/143721160?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/90135669?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/90139122?v=4' height=130 width=130></img> |
 | <a href="https://github.com/GU-0" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/hyojun03" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/NoMyeongEun" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/HyejiYu" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> |
+| :-: | :-: |<a href="https://velog.io/@me529"><img src="https://img.shields.io/badge/velog-b?style=flat-square&logo=velog&logoColor=white"/></a>|<a href="https://velog.io/@dbgpwl34"><img src="https://img.shields.io/badge/velog-b?style=flat-square&logo=velog&logoColor=white"/></a>|
 
 | 조민서 | 최용빈 | 한상진 | 허윤지 |
 | :-: | :-: | :-: | :-: |
 | <img src='https://avatars.githubusercontent.com/u/87311912?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/64704608?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/49024115?v=4' height=130 width=130></img> | <img src='https://avatars.githubusercontent.com/u/111333350?v=4' height=130 width=130></img> |
 | <a href="https://github.com/Minseo-Jo" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/whybe-choi" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/eu2525" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> | <a href="https://github.com/myeunee" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github"/></a> |
+|<a href="https://jominseoo.tistory.com/"><img src="https://img.shields.io/badge/Tisotry-orange?style=flat-square&logo=Tistory&logoColor=white"/></a>|<a href="https://whybechoi.tistory.com/"><img src="https://img.shields.io/badge/Tisotry-orange?style=flat-square&logo=Tistory&logoColor=white"/></a> |<a href="https://itcodeheaven.tistory.com/"><img src="https://img.shields.io/badge/Tisotry-orange?style=flat-square&logo=Tistory&logoColor=white"/></a>| :-: |
 
 <br>
 
