@@ -82,7 +82,7 @@
 
 
 ### 1️⃣ Airflow DAG 구성을 통해 자동 크롤링
-![image](https://github.com/myeunee/hello-world/assets/111333350/31e4c765-caac-43d6-a289-3616f301483b)
+<img width="1066" alt="스크린샷 2024-01-01 오후 11 37 50" src="https://github.com/khuda-4th/KHUDA_DE_dev_event_alarm_chatbot/assets/64704608/c5508d5c-7ca9-4fa8-a744-b02994cc452f">
 
 <br>
 
@@ -93,7 +93,7 @@
 <br>
 
 ### 2️⃣ S3에 데이터 업로드
-![image](https://github.com/myeunee/hello-world/assets/111333350/0ff5e885-4a27-40ef-8d4f-37ead60627b4)
+<img width="1066" alt="스크린샷 2024-01-01 오후 11 37 59" src="https://github.com/khuda-4th/KHUDA_DE_dev_event_alarm_chatbot/assets/64704608/f0322025-9d15-46ba-9e57-edba7d79d32c">
 
 >- **AWS S3(Amazon S3)**: AWS에서 제공하는 클라우드 기반의 객체 스토리지 서비스
 >- s3에 DAG 파일 업로드
@@ -101,9 +101,8 @@
 <br>
 
 ### 3️⃣ Grafana 모니터링 대시보드
-![image](https://github.com/myeunee/hello-world/assets/111333350/8629b19c-8ff1-45f3-9ca1-80b707ca41a4)
-
-![image](https://github.com/myeunee/hello-world/assets/111333350/03e80f1a-06f1-4070-91c5-5e0b01969319)
+<img width="1066" alt="스크린샷 2024-01-01 오후 11 43 17" src="https://github.com/khuda-4th/KHUDA_DE_dev_event_alarm_chatbot/assets/64704608/03eed429-2cf4-4a35-8602-faaaf3b9bec9">
+<img width="1066" alt="스크린샷 2024-01-01 오후 11 38 28" src="https://github.com/khuda-4th/KHUDA_DE_dev_event_alarm_chatbot/assets/64704608/a316ff03-e371-4312-a92b-e085fed4bf40">
 
 >- **Prometheus**: 메트릭을 주기적으로 스크랩
 >- **Grafana**: prometheus의 메트릭으로 대시보드 구성
