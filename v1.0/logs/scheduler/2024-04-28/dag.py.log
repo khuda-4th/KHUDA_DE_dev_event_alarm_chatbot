@@ -1,0 +1,88 @@
+[2024-04-28T07:40:37.295+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:40:37.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:40:37.299+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:37.298+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:40:41.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:40:42.650+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.650+0000] {manager.py:501} INFO - Created Permission View: can read on DAG:crawling-upload
+[2024-04-28T07:40:42.678+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.678+0000] {manager.py:501} INFO - Created Permission View: can edit on DAG:crawling-upload
+[2024-04-28T07:40:42.700+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.700+0000] {manager.py:501} INFO - Created Permission View: can delete on DAG:crawling-upload
+[2024-04-28T07:40:42.734+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.734+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:40:42.778+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.777+0000] {dag.py:2929} INFO - Creating ORM DAG for crawling-upload
+[2024-04-28T07:40:42.807+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:40:42.807+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:40:42.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 5.574 seconds
+[2024-04-28T07:41:13.083+0000] {processor.py:157} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:41:13.085+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:41:13.087+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:13.086+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:41:13.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:41:13.852+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:13.851+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:41:13.883+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:13.883+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:41:13.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.832 seconds
+[2024-04-28T07:41:44.118+0000] {processor.py:157} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:41:44.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:41:44.122+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:44.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:41:45.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:41:45.167+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:45.166+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:41:45.193+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:41:45.193+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:41:45.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 1.110 seconds
+[2024-04-28T07:46:40.867+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:46:40.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:46:40.883+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:46:40.883+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:46:42.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:46:42.309+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:46:42.309+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:46:42.351+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:46:42.351+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:46:42.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 1.528 seconds
+[2024-04-28T07:47:12.561+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:47:12.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:47:12.566+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:12.566+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:47:13.325+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:47:13.492+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:13.491+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:47:13.518+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:13.518+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:47:13.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.985 seconds
+[2024-04-28T07:47:43.743+0000] {processor.py:157} INFO - Started process (PID=81) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:47:43.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:47:43.747+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:43.747+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:47:44.475+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:47:44.507+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:44.507+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:47:44.530+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:47:44.530+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:47:44.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.814 seconds
+[2024-04-28T07:48:14.725+0000] {processor.py:157} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:48:14.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:48:14.729+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:14.729+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:48:15.377+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:48:15.413+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:15.413+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:48:15.443+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:15.443+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:48:15.467+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.745 seconds
+[2024-04-28T07:48:45.635+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:48:45.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:48:45.639+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:45.638+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:48:46.304+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:48:46.337+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:46.337+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:48:46.485+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:48:46.485+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:48:46.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.875 seconds
+[2024-04-28T07:49:16.687+0000] {processor.py:157} INFO - Started process (PID=144) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:49:16.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:49:16.690+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:16.690+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:49:17.349+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:49:17.391+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:17.390+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:49:17.426+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:17.426+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:49:17.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.770 seconds
+[2024-04-28T07:49:47.604+0000] {processor.py:157} INFO - Started process (PID=169) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:49:47.606+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:49:47.609+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:47.609+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:49:48.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:49:48.560+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:48.560+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:49:48.596+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:49:48.596+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:49:48.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 1.020 seconds
+[2024-04-28T07:50:18.767+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:50:18.768+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:50:18.773+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:18.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:50:19.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:50:19.888+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:19.888+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:50:19.926+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:19.926+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:50:19.953+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 1.193 seconds
+[2024-04-28T07:50:50.114+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/dag.py
+[2024-04-28T07:50:50.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-28T07:50:50.118+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:50.117+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-28T07:50:50.917+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-04-28T07:50:50.962+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:50.962+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-04-28T07:50:50.996+0000] {logging_mixin.py:151} INFO - [2024-04-28T07:50:50.996+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-04-08T00:00:00+00:00, run_after=2024-04-09T00:00:00+00:00
+[2024-04-28T07:50:51.025+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.916 seconds

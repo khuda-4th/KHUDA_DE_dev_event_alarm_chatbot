@@ -1,0 +1,37 @@
+[2024-06-29T15:11:30.326+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:11:30.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:11:30.336+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:11:30.333+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:11:31.913+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:11:32.477+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:11:32.476+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:11:32.514+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:11:32.514+0000] {dag.py:3677} INFO - Setting next_dagrun for crawling-upload to 2024-06-26T00:00:00+00:00, run_after=2024-06-27T00:00:00+00:00
+[2024-06-29T15:11:32.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 2.239 seconds
+[2024-06-29T15:12:02.748+0000] {processor.py:157} INFO - Started process (PID=59) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:12:02.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:12:02.751+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:12:02.751+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:12:03.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:12:03.666+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:12:03.665+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:12:03.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.972 seconds
+[2024-06-29T15:12:33.904+0000] {processor.py:157} INFO - Started process (PID=86) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:12:33.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:12:33.911+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:12:33.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:12:34.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:12:34.898+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:12:34.898+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:12:34.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 1.069 seconds
+[2024-06-29T15:13:05.093+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:13:05.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:13:05.102+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:13:05.101+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:13:05.747+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:13:05.780+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:13:05.780+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:13:05.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.759 seconds
+[2024-06-29T15:13:36.042+0000] {processor.py:157} INFO - Started process (PID=121) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:13:36.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:13:36.046+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:13:36.045+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:13:36.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:13:36.797+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:13:36.797+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:13:37.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.976 seconds
+[2024-06-29T15:14:07.241+0000] {processor.py:157} INFO - Started process (PID=147) to work on /opt/airflow/dags/dag.py
+[2024-06-29T15:14:07.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-06-29T15:14:07.251+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:14:07.250+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-06-29T15:14:07.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawling-upload']) retrieved from /opt/airflow/dags/dag.py
+[2024-06-29T15:14:07.932+0000] {logging_mixin.py:151} INFO - [2024-06-29T15:14:07.931+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2024-06-29T15:14:07.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag.py took 0.752 seconds
