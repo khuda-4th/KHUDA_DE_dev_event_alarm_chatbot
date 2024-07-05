@@ -28,6 +28,11 @@ x-airflow-common:
     AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: 2
     AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG: 1
     AIRFLOW_CONN_DE_AIRFLOW: 'aws://{ACCESS_KEY}:{ACCESS_SECRET_KEY}@/?region_name=ap-northeast-2'
+    AIRFLOW__SMTP__SMTP_HOST : 'smtp.gmail.com'
+    AIRFLOW__SMTP__SMTP_USER : {email}
+    AIRFLOW__SMTP__SMTP_PASSWORD : {email_app_password}
+    AIRFLOW__SMTP__SMTP_PORT : 587
+    AIRFLOW__SMTP__SMTP_MAIL_FROM : {email}
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
